@@ -25,6 +25,9 @@ employee-app-helm/
 │   ├── Dockerfile
 │   ├── package.json
 │   └── server.js
+│
+│── deploy.sh
+│── setup.sh
 └── README
 ```
 
