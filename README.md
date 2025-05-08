@@ -128,4 +128,4 @@ helm uninstall employee-app
 
 ### ✍️ *Author: Georges Bou Ghantous*
 
-Built with ❤️ to demonstrate full-stack deployment using AKS + Helm.
+*Built to demonstrate full-stack deployment using AKS + Helm 💙*
