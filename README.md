@@ -1,10 +1,10 @@
-# 🧑‍💼 Employee App on AKS with Helm
+## 🧑‍💼 Employee App on AKS with Helm
 
 This project demonstrates how to deploy a **full-stack employee directory** consisting of a **React frontend** and a **Node.js backend API** to **Azure Kubernetes Service (AKS)** using a **Helm chart**.
 
 ---
 
-## 📁 Project Structure
+### 📁 Project Structure
 
 ```
 employee-app-helm/
@@ -30,7 +30,7 @@ employee-app-helm/
 
 ---
 
-## 🧰 Stack Overview
+### 🧰 Stack Overview
 
 - **Frontend**: React (served via NGINX)
 - **Backend**: Node.js (Express API)
@@ -39,7 +39,7 @@ employee-app-helm/
 
 ---
 
-## 👩‍💻 How It Works
+### 👩‍💻 How It Works
 
 - React frontend is built and served with NGINX.
 - It fetches employee data from the backend API using:
@@ -51,7 +51,7 @@ employee-app-helm/
 
 ---
 
-## ✅ Prerequisites
+### ✅ Prerequisites
 
 - Azure CLI (`az`)
 - Helm 3 (`helm`)
@@ -61,7 +61,7 @@ employee-app-helm/
 
 ---
 
-## 🚀 Deployment Steps
+### 🚀 Deployment Steps
 
 1. **Build and Push Images**
    > Replace image repos in `values.yaml` with your container registry (e.g., ACR, DockerHub)
@@ -103,7 +103,7 @@ employee-app-helm/
 
 ---
 
-## 🔁 API Response Format
+### 🔁 API Response Format
 
 ```json
 [
@@ -115,7 +115,7 @@ employee-app-helm/
 
 ---
 
-## 🧹 Cleanup
+### 🧹 Cleanup
 
 ```bash
 helm uninstall employee-app
@@ -123,6 +123,6 @@ helm uninstall employee-app
 
 ---
 
-## 🧠 Author
+### ✍️ *Author: Georges Bou Ghantous*
 
 Built with ❤️ to demonstrate full-stack deployment using AKS + Helm.
