@@ -25,6 +25,7 @@ employee-app-helm/
 │   ├── Dockerfile
 │   ├── package.json
 │   └── server.js
+└── README.md
 ```
 
 ---
