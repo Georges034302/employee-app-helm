@@ -25,7 +25,7 @@ employee-app-helm/
 │   ├── Dockerfile
 │   ├── package.json
 │   └── server.js
-└── README.md
+└── README
 ```
 
 ---
@@ -125,4 +125,4 @@ helm uninstall employee-app
 
 ### ✍️ *Author: Georges Bou Ghantous*
 
-Built to demonstrate full-stack deployment using AKS + Helm 💙
+Built with ❤️ to demonstrate full-stack deployment using AKS + Helm.
